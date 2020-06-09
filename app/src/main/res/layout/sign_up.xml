@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2232629"
+    tools:context=".sign_up">
+
+    <TextView
+        android:id="@+id/secondheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/balthazar"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="#0FA515"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_below="@+id/secondheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email ID"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textColorHint="#fff"/>
+
+    <EditText
+        android:id="@+id/spassword"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter a password"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+    <EditText
+        android:id="@+id/phnum"
+        android:layout_below="@id/spassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"/>
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_below="@id/phnum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:text="LET'S GO!"
+        android:background="#0FA515"/>
+
+    <Button
+        android:id="@+id/loginb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/okay"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="#0FA515"
+        android:text="LOG IN" />
+
+</RelativeLayout>

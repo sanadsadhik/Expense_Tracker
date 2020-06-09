@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <string-array name="incomeCategories">
+        <item>Salary</item>
+        <item>Commission</item>
+        <item>Pocket Money</item>
+        <item>Rent</item>
+        <item>Profit</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="expenseCategories">
+        <item>Rent</item>
+        <item>Fees</item>
+        <item>Grocery</item>
+        <item>Food</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="paymentModes">
+        <item>Cash</item>
+        <item>E-money</item>
+        <item>Card</item>
+        <item>Cheque</item>
+        <item>Other</item>
+    </string-array>
+</resources>
